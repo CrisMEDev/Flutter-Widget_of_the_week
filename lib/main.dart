@@ -12,13 +12,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Widget of the week',
 
-      initialRoute: '/animatedContainer',
+      initialRoute: '/animatedOpacity',
 
       routes: {
         '/safeArea'                    : ( BuildContext context ) => SafeAreaPage(),
         '/expanded'                    : ( BuildContext context ) => ExpandedPage(),
         '/wrap'                        : ( BuildContext context ) => WrapPage(),
         '/animatedContainer'           : ( BuildContext context ) => AnimatedContainerPage(),
+        '/animatedOpacity'             : ( BuildContext context ) => AnimatedOpacityPage()
       },
     );
   }
