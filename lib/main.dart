@@ -13,16 +13,17 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Widget of the week',
 
-      initialRoute: '/fadeTransition',
+      initialRoute: '/floatingActionButton',
 
       routes: {
-        '/safeArea'                     : ( BuildContext context ) => SafeAreaPage(),
-        '/expanded'                     : ( BuildContext context ) => ExpandedPage(),
-        '/wrap'                         : ( BuildContext context ) => WrapPage(),
-        '/animatedContainer'            : ( BuildContext context ) => AnimatedContainerPage(),
-        '/animatedOpacity'              : ( BuildContext context ) => AnimatedOpacityPage(),
-        '/futureBuilder'                : ( BuildContext context ) => FutureBuilderPage(),
-        '/fadeTransition'               : ( BuildContext context ) => FadeTransitionPage(),
+        '/safeArea'                           : ( BuildContext context ) => SafeAreaPage(),
+        '/expanded'                           : ( BuildContext context ) => ExpandedPage(),
+        '/wrap'                               : ( BuildContext context ) => WrapPage(),
+        '/animatedContainer'                  : ( BuildContext context ) => AnimatedContainerPage(),
+        '/animatedOpacity'                    : ( BuildContext context ) => AnimatedOpacityPage(),
+        '/futureBuilder'                      : ( BuildContext context ) => FutureBuilderPage(),
+        '/fadeTransition'                     : ( BuildContext context ) => FadeTransitionPage(),
+        '/floatingActionButton'               : ( BuildContext context ) => FABPage(),
       },
     );
   }
